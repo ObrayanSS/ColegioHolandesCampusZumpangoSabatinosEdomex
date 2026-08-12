@@ -1,0 +1,536 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio Holandes - Mensajes WhatsApp</title>
+    <link rel="icon" type="image/png" href="ch.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: #f4f1ea;
+        }
+
+        header {
+            background: #174a4f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, .2);
+        }
+
+        .busqueda {
+            width: 90%;
+            max-width: 500px;
+            margin: 30px auto;
+        }
+
+        .busqueda input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #d4af37;
+            border-radius: 10px;
+            font-size: 18px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+            outline: none;
+        }
+
+        .contenedor {
+            width: 95%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding-bottom: 30px;
+            align-items: start;
+        }
+
+        .tarjeta {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .15);
+            transition: .3s;
+            border-top: 5px solid #d4af37;
+        }
+
+        .tarjeta:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, .2);
+        }
+
+        .nombre {
+            font-size: 22px;
+            color: #174a4f;
+            font-weight: bold;
+        }
+
+        .datos {
+            margin-top: 10px;
+            color: #666;
+            line-height: 28px;
+        }
+
+        .btn {
+            display: block;
+            margin-top: 20px;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 12px;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: .3s;
+        }
+
+        .btn:hover {
+            background: #128C7E;
+        }
+
+        .contenedor {
+            align-items: start;
+        }
+
+        .tarjeta {
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        Colegio Holandes Sabatinos - WhatsApp
+    </header>
+    <div class="busqueda">
+        <input type="text" id="buscar" placeholder="Buscar alumno">
+    </div>
+    <div class="contenedor">
+        <div class="tarjeta">
+            <div class="nombre">Contreras Trejo Axel Ivan</div>
+            <div class="datos">
+                55 2910 7734
+                1224MG0009
+            </div>
+            <a class="btn"
+                href="https://wa.me/5529107734?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0AContreras%20Trejo%20Axel%20Ivan.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Fortiz Peraza Uriel</div>
+            <div class="datos">
+                55 9348 7503
+                0325MG0003
+            </div>
+            <a class="btn"
+                href="https://wa.me/5593487503?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0AFortiz%20Peraza%20Uriel.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Ceron Mejia Axel</div>
+            <div class="datos">
+                55 1316 7577
+                0325MG0008
+            </div>
+            <a class="btn"
+                href="https://wa.me/5513167577?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0ACeron%20Mejia%20Axel.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Franco Guzman Rodrigo</div>
+            <div class="datos">
+                55 1970 5252
+                0325MG0016
+            </div>
+            <a class="btn"
+                href="https://wa.me/5519705252?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0AFranco%20Guzman%20Rodrigo.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Ramos Sanchez Juan Manuel</div>
+            <div class="datos">
+                55 4528 2539
+                0925MG0003
+            </div>
+            <a class="btn"
+                href="https://wa.me/5545282539?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0ARamos%20Sanchez%20Juan%20Manuel.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Hernandez Landeros Jonathan</div>
+            <div class="datos">
+                55 2118 6744
+                0925MG0004
+            </div>
+            <a class="btn"
+                href="https://wa.me/5521186744?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0AHernandez%20Landeros%20Jonathan.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Cano Jandete Johan Alejandro</div>
+            <div class="datos">
+                56 1832 2440
+                0925MG0012
+            </div>
+            <a class="btn"
+                href="https://wa.me/5618322440?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0ACano%20Jandete%20Johan%20Alejandro.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Moreno Mendoza Roberto</div>
+            <div class="datos">
+                55 6786 0141
+                0925MG0014
+            </div>
+            <a class="btn"
+                href="https://wa.me/5567860141?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0AMoreno%20Mendoza%20Roberto.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Mora Cruz Alan Omar</div>
+            <div class="datos">
+                55 6240 4080
+                0925MG0017
+            </div>
+            <a class="btn"
+                href="https://wa.me/5562404080?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0AMora%20Cruz%20Alan%20Omar.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Lopez Perez Alexis</div>
+            <div class="datos">
+                55 3732 9479
+                0925MG0022
+            </div>
+            <a class="btn"
+                href="https://wa.me/5537329479?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0ALopez%20Perez%20Alexis.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Gonzalez Lara Ricardo Yakin</div>
+            <div class="datos">
+                0925MG0099
+            </div>
+            <a class="btn"
+                href="https://wa.me/...?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0AGonzalez%20Lara%20Ricardo%20Yakin.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Garcia Morales Juan Carlos</div>
+            <div class="datos">
+                55 3437 6684
+                1225MG0002
+            </div>
+            <a class="btn"
+                href="https://wa.me/5534376684?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0AGarcia%20Morales%20Juan%20Carlos.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Brito Sanchez Hector Emiliano</div>
+            <div class="datos">
+                55 4157 2567
+                0326MG0007
+            </div>
+            <a class="btn"
+                href="https://wa.me/5541572567?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0ABrito%20Sanchez%20Hector%20Emiliano.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Leyva Lopez Dante</div>
+            <div class="datos">
+                56 3536 1222
+                0626MG0001
+            </div>
+            <a class="btn"
+                href="https://wa.me/5635361222?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0ALeyva%20Lopez%20Dante.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Gonzalez Lopez Victor Hugo</div>
+            <div class="datos">
+                55 2181 3558
+                0626MG0004
+            </div>
+            <a class="btn"
+                href="https://wa.me/5521813558?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0AGonzalez%20Lopez%20Victor%20Hugo.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Cruz Neri Alejandro</div>
+            <div class="datos">
+                56 5794 6129
+                0626MG0005
+            </div>
+            <a class="btn"
+                href="https://wa.me/5657946129?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0ACruz%20Neri%20Alejandro.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Maturano Hernandez Angel de Jesus</div>
+            <div class="datos">
+                55 6889 9008
+                0626MG0010
+            </div>
+            <a class="btn"
+                href="https://wa.me/5568899008?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0AMaturano%20Hernandez%20Angel%20de%20Jesus.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Lopez Morales Eddy Santiago</div>
+            <div class="datos">
+                55 2655 1024
+                0626MG0012
+            </div>
+            <a class="btn"
+                href="https://wa.me/5526551024?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0ALopez%20Morales%20Eddy%20Santiago.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Salinas Joya Luis Angel</div>
+            <div class="datos">
+                720 646 3139
+                0925MG0019
+            </div>
+            <a class="btn"
+                href="https://wa.me/7206463139?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0ASalinas%20Joya%20Luis%20Angel.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Tinoco Lopez Luis Uriel</div>
+            <div class="datos">
+                56 6149 2477
+                0925MT0001
+            </div>
+            <a class="btn"
+                href="https://wa.me/5661492477?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0ATinoco%20Lopez%20Luis%20Uriel.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Tristian Suarez Francisco Javier</div>
+            <div class="datos">
+                55 4654 5439
+                0925MT0002
+            </div>
+            <a class="btn"
+                href="https://wa.me/5546545439?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0ATristian%20Suarez%20Francisco%20Javier.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Portillo Castro Brayan</div>
+            <div class="datos">
+                55 4871 0660
+                0925MT0003
+            </div>
+            <a class="btn"
+                href="https://wa.me/5548710660?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0APortillo%20Castro%20Brayan.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Arroyo Perez Joshua Vicent</div>
+            <div class="datos">
+                56 2406 7956
+                0925MT0004
+            </div>
+            <a class="btn"
+                href="https://wa.me/5624067956?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0AArroyo%20Perez%20Joshua%20Vicent.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Cauich Islas Angel Gabriel</div>
+            <div class="datos">
+                55 3641 4375
+                0925MT0005
+            </div>
+            <a class="btn"
+                href="https://wa.me/5536414375?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0ACauich%20Islas%20Angel%20Gabriel.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Flores Garcia Benny Angel</div>
+            <div class="datos">
+                56 5946 4906
+                0326MT0003
+            </div>
+            <a class="btn"
+                href="https://wa.me/5659464906?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0AFlores%20Garcia%20Benny%20Angel.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Zamudio Gonzalez Rooderik</div>
+            <div class="datos">
+                56 3743 0116
+                0326MT000
+            </div>
+            <a class="btn"
+                href="https://wa.me/5637430116?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0AZamudio%20Gonzalez%20Rooderik.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Castillo Campos Alan Argenis</div>
+            <div class="datos">
+                56 4829 8363
+                0625MT0009
+            </div>
+            <a class="btn"
+                href="https://wa.me/...?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0ACastillo%20Campos%20Alan%20Argenis.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Ortega Jimenez Carlos Eduardo</div>
+            <div class="datos">
+                55 6695 6951
+                00923BT0004
+            </div>
+            <a class="btn"
+                href="https://wa.me/5566956951?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0AOrtega%20Jimenez%20Carlos%20Eduardo.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Palacios Rojano Joan Ricardo</div>
+            <div class="datos">
+                56 4434 1005
+                0625MT0005
+            </div>
+            <a class="btn"
+                href="https://wa.me/5644341005?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0APalacios%20Rojano%20Joan%20Ricardo.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Montes Gomez Victor Eduardo</div>
+            <div class="datos">
+                56 2138 7264
+                0325MT0002
+            </div>
+            <a class="btn"
+                href="https://wa.me/5621387264?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0AMontes%20Gomez%20Victor%20Eduardo.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="nombre">Godinez Salazar Carlos</div>
+            <div class="datos">
+                55 2927 4745
+                0325MT0007
+            </div>
+            <a class="btn"
+                href="https://wa.me/5529274745?text=Que%20tal%20buenas%20tardes,%20me%20comunico%20del%20colegio%20Holandes%20de%20mecánica%20automotriz%20campus%20Zumpango%20y%20le%20hacemos%20saber%20acerca%20del%20alumno:%0AGodinez%20Salazar%20Carlos.%0AEl%20cual%20no%20se%20presentó%20a%20clases%20el%20día%20de%20hoy.%0AMuchas%20gracias."
+                target="_blank">
+                Enviar WhatsApp
+            </a>
+        </div>
+
+    </div>
+    <script>
+        const buscador = document.getElementById("buscar");
+        const tarjetas = document.querySelectorAll(".tarjeta");
+        function norm(t) { return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
+        buscador.addEventListener("input", function () {
+            const q = norm(this.value);
+            tarjetas.forEach(t => {
+                t.style.display = norm(t.innerText).includes(q) ? "" : "none";
+            });
+        });
+    </script>
+</body>
+
+</html>
